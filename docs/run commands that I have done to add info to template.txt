@@ -1,0 +1,43 @@
+Added info: 
+├───basic_app
+│   ├───migrations
+│   │   └───__pycache__
+│   └───__pycache__
+├───media
+│   └───user_pic
+├───social_media
+│   └───__pycache__
+├───static
+└───templates
+		about.html
+                base.html
+                discussionpage.html
+                homepage.html
+                index.html
+                messagepage.html
+                signup.html
+
+edited python files:
+
+
+
+
+
+
+
+
+
+
+run commmand : python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+
+verify no migirations need 
+python manage.py makemigrations
+
+No changes detected
+
+python manage.py makemigrations basic_app
+No changes detected in app 'basic_app'

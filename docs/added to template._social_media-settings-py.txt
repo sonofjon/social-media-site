@@ -1,0 +1,29 @@
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
+STATIC_DIR = os.path.join(BASE_DIR, 'static')  # website creator stores pitures,css and javascript.
+MEDIA_DIR =  os.path.join(BASE_DIR, 'media')   # user can save data ex profile piture and like that
+
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS=[STATIC_DIR,]
+
+MEDIA_ROOT= MEDIA_DIR
+MEDIA_URL= '/media/'
+
+INSTALLED_APPS
+added 
+		'basic_app'
+
+added in TEMPLATES
+
+		'DIRS': [TEMPLATE_DIR]
+
+added  last in page:
+add location of static dir and media dir
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS=[STATIC_DIR,]
+
+MEDIA_ROOT= MEDIA_DIR
+MEDIA_URL= '/media/'
+

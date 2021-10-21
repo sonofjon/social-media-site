@@ -1,0 +1,67 @@
+ Run this command : conda create --name social_media python=3.8.12
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\magnu\miniconda3\envs\social_media
+
+  added / updated specs:
+    - python=3.8.12
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2021.9.30  |       haa95532_1         116 KB
+    certifi-2021.10.8          |   py38haa95532_0         152 KB
+    openssl-1.1.1l             |       h2bbff1b_0         4.8 MB
+    pip-21.0.1                 |   py38haa95532_0         1.8 MB
+    python-3.8.12              |       h6244533_0        16.0 MB
+    wincertstore-0.2           |   py38haa95532_2          15 KB
+    ------------------------------------------------------------
+                                           Total:        23.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-2021.9.30-haa95532_1
+  certifi            pkgs/main/win-64::certifi-2021.10.8-py38haa95532_0
+  openssl            pkgs/main/win-64::openssl-1.1.1l-h2bbff1b_0
+  pip                pkgs/main/win-64::pip-21.0.1-py38haa95532_0
+  python             pkgs/main/win-64::python-3.8.12-h6244533_0
+  setuptools         pkgs/main/win-64::setuptools-58.0.4-py38haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.36.0-h2bbff1b_0
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
+  wheel              pkgs/main/noarch::wheel-0.37.0-pyhd3eb1b0_1
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py38haa95532_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+setuptools-58.0.4    | 779 KB    | ############################################################################# | 100%
+certifi-2021.10.8    | 152 KB    | ############################################################################# | 100%
+python-3.8.12        | 16.0 MB   | ############################################################################# | 100%
+openssl-1.1.1l       | 4.8 MB    | ############################################################################# | 100%
+ca-certificates-2021 | 116 KB    | ############################################################################# | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate social_media
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+we also installed pip extension for django : pip install django==2.2.5
+
+after that we start run template.
+
