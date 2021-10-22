@@ -20,5 +20,5 @@ from basic_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$',views.homepage,name='homepage' )
+    url(r'^Homepage',views.homepage,name='homepage' )
 ]
