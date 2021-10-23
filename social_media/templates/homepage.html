@@ -1,9 +1,15 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="eng">
     <title>Home Page</title>
-    <body>
-        <h1>Welcome to our social media homepahe !</h1>
+    <link rel="stylesheet" href = "{% static "css/my_style.css"%}">
+    <body style="background-image: url('static/images/Social_Media.jpg');">
+    <div class="my_div">
+        <h1>Welcome to our social media homepage !</h1>
+         <br>
+    
            <h3>Something here</h3>
-                {{insert_me}}
+                
+    </div>
     </body>
 </html>
