@@ -1,0 +1,39 @@
+/* html,
+body {
+    height: 100%;
+    background-color: rgb(10, 7, 7);
+  }
+  body {
+    color: rgb(34, 33, 33);
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  } */
+body {
+    background-color: rgb(26, 143, 32);
+}
+
+footer {
+    position:bottom;
+    height: 80px;
+    width: 100%;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #black;
+    line-height: 40px;
+    font-size: 0.8em;
+    text-align: center;
+    bottom: 0;
+}
+
+p.disclaimer {
+    position: absolute;
+    width: 100%;
+    color: #black;
+    line-height: 40px;
+    font-size: 0.8em;
+    text-align: center;
+    bottom:15;
+}
