@@ -2,13 +2,10 @@
 
 {% extends 'basic_app/base.html' %}
 {% block body_bock %}
+
+{% block content %}
 <h1>Welcome to HomePage!</h1>
 <h1>This is a private social media site ! </h1>
-{% comment %} % if user.is_authenticated %}
-  Hi {{ user.username }}!
-  <p><a href="{% url 'logout' %}">Log Out</a></p>
-{% else %}
-  <p>You are not logged in</p>
-  <a href="{% url 'login' %}">Log In</a> {% endcomment %}
+{% endblock content%}
 
 {% endblock %}
