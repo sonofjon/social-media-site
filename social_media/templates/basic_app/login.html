@@ -1,7 +1,12 @@
-
 {% extends 'basic_app/base.html' %}
+
 {% block body_bock %}
-<h1>Login Page!!</h1>
+       <h2>Login</h2>
+        <p>{{ message }}</p>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" value='login'>Login</button>
+        </form>
 
-
-{% endblock %} 
+{% endblock %}

@@ -17,8 +17,13 @@ from django.contrib import admin
 from django.conf.urls import url,include
 from basic_app import views
 
+
+
+
+
 urlpatterns = [
     url(r'^$', views.welcome, name="welcome"),
     url(r'^admin/', admin.site.urls),
-    url(r'^basic_app/', include("basic_app.urls")),
+    url(r'^basic_app/', include("basic_app.urls")),   
+
 ]
