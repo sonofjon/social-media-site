@@ -31,7 +31,4 @@ class UserProfile(View):
 
 
 
-class AboutView(TemplateView):
-    template_name = 'about.html'
-
 
