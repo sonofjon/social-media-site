@@ -1,15 +1,10 @@
-/* html,
 body {
-    height: 100%;
-    background-color: rgb(10, 7, 7);
-  }
-  body {
-    color: rgb(34, 33, 33);
-    text-align: center;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  } */
-body {
-    background-color: rgb(26, 143, 32);
+    background-image: url(Social_Media.gif), url(image2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    height: 300px, 500px;
+    background-position: center;
+    background-size:contain,cover;
+    position: relative;
 }
 
 footer {
