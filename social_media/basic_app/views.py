@@ -4,7 +4,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
 from django.http import HttpResponseRedirect
 from . import forms
-# from basic_app.forms import LoginForm,SignUpForm
+
 
 # Create your views here.
 
