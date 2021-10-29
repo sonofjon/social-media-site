@@ -35,16 +35,16 @@
         </div>
     </nav>
     <div class="container">
-        {% block body_bock %}
+        {% block body_block %}
            
            
         {% endblock %}
     </div>
 
     <footer>
-        <p class="copyright">© Team3 @ Social Media Company Inc <a href="static/contactus.html">ContactUs</a></p>
+        <p class="copyright"> Team3 @ Social Media Company Inc © <a href="{% static 'contactus.html' %}">ContactUs</a></p>
         <p class="disclaimer">We don't take responsibility for our users' actions or views 
-                more info can be found here : <a href="static/disclaimer.html">Disclaimer info</a> </p>
+                more info can be found here : <a href="{% static 'disclaimer.html' %}">Disclaimer info</a> </p>
     </footer>
 </body>
 </html>
